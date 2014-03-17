@@ -1,0 +1,25 @@
+PYTHON
+
+ls- lista
+cd Desktop- change directories, hämtar direkt från Desktop
+clear- rensar
+uppåt/neråt pil- bläddra mellan tidigare skrifter
+
+MODULER OCH PAKET
+
+import math as matte  //importerar math(en modul) och namnger den som matte
+print matte.sin(0.5)  //skriver ut ngt ang. sinuskurvan...
+            cos       //    -"-             cosinuskurvan
+
+-------------------------------------------------------------------------
+
+minfil = open ('test.txt', 'w')      //öppnar och skapar en txt-fil eller öppnar och skriver över en redan existerande fil.
+w = write
+minfil.write ("hello mee :3")   //skriver "hello mee :3" i filen
+minfil.close()                  //stänger filen
+
+minfil = open ('test.txt', 'r') //r = read
+print minfil.read()             //
+minfil.close()                  //
+
+sudo apt-get install python-tk   // installerar paketet Tkinter
